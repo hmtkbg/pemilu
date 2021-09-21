@@ -44,7 +44,7 @@ body{
 */
 
 .hori-timeline .events {
-    border-top: 3px solid #e9ecef;
+    border-top: 3px dashed #e9ecef;
 }
 
 .hori-timeline .events .event-list {
@@ -58,8 +58,8 @@ body{
 .hori-timeline .events .event-list:before {
     content: "";
     position: absolute;
-    height: 36px;
-    border-right: 2px dashed #dee2e6;
+    height: 45px;
+    border-right: 2px solid #dee2e6;
     top: 0;
 }
 
@@ -71,7 +71,7 @@ body{
     width: 150px;
     margin: 0 auto;
     border-radius: 4px;
-    padding: 2px 4px;
+    padding: 2px;
 }
 
 @media (min-width: 1140px) {
@@ -93,6 +93,7 @@ body{
     box-shadow: 0 0 13px 0 rgba(236,236,241,.44);
 }
 
+*/
 
 
 
