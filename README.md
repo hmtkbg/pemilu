@@ -1,5 +1,7 @@
-# Situs Pemilu TKBG 2021
+# Pemilu TKBG 2021
 
-Static website using Bootstrap 4
+Static website for "Pemilu TKBG 2021"
 
-> Created by Divisi Kominfo HMTKBG 2021
+Created using bootstrap 4 framework
+
+Divisi Kominfo HMTKBG 2021
