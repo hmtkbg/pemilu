@@ -1,12 +1,37 @@
 <!-- hiding navbar -->
 
 <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">About</h4>
-              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-            </div>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-md-7 py-4">
+        <h4 class="text-white">About</h4>
+        <p class="text-muted">Add some information about the album below, the author, or any other background context.
+          Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social
+          networking sites or contact information.</p>
       </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="card-body">
+  <h5 class="card-title text-center">Afrilia — Nisa</h5>
+  <p class="card-text">Ketua: Afrilia Sevia Dwi Kusumawati</p>
+  <p class="card-text">Wakil: Khairunnisa</p>
+</div>
+
+<div class="card-body">
+  <h5 class="card-title text-center">Kevin — Rizky</h5>
+  <p class="card-text">Ketua: Kevin Caesar Ricardo</p>
+  <p class="card-text">Wakil: Muhammad Nur Rizki</p>
+</div>
+<div class="card-footer text-muted">
+  <span style="font-style: italic;">Slogan</span>
+</div>
+
+
+
+
+<div class="card-footer text-muted">
+  <span style="font-style: italic;">Slogan</span>
+</div>

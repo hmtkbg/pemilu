@@ -15,3 +15,21 @@
 body {
     padding-top: 70px;
 }
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron {
+    height: 85vh;
+}
+
+.vertical-center {
+    min-height: 85%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 85vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
