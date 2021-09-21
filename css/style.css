@@ -1,3 +1,9 @@
 .text1 {
     font-weight: bold;
 }
+
+/* icon */ .custom-navbar .fa {font-size:25px}
+
+.redpride {
+    background-color: #b22a2e;
+}
