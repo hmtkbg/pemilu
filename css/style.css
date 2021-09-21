@@ -7,3 +7,11 @@
 .redpride {
     background-color: #b22a2e;
 }
+
+.redpride-dark {
+    background-color: #6e1b1e;
+}
+
+body {
+    padding-top: 70px;
+}
