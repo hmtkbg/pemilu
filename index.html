@@ -22,6 +22,7 @@
   <!-- Custom styles for this template -->
   <link href="css/album.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
 </head>
 
@@ -88,15 +89,15 @@
         <h1 class="jumbotron-heading">Satu suara wujudkan perubahan!</h1>
         <p class="lead text-muted">Pemilihan Umum Ketua & Wakil Ketua HMTKBG Periode 2021/2022</p>
         <p>
-          <a href="https://forms.zohopublic.com/pemilutkbg/form/RegistrasiPemilihPemiluTKBG2021/formperma/Oo2rFc7SeOQbm9wBpQ1FA98JV2r1cRs54x6H_6nD1Og"
-            target="_blank" class="btn btn-light my-2">Registrasi Pemilih</a>
+          <a href="#" target="_blank" class="btn btn-light my-2 disabled  ">Registrasi Pemilih</a>
           <a href="#" target="_blank" class="btn btn-danger my-2 disabled">Mulai Voting</a>
         </p>
+        <p id="demo" class="text-muted"></p>
         <p>
-          <br>
           <br>
           <img src="img/scroll-button.svg" width="25px" height="auto"></img>
         </p>
+
       </div>
     </section>
 
@@ -144,7 +145,7 @@
                           <hr>
                           <p class="text-muted">Slogan</p>
                           <h5><span style="font-style: italic; color: #b22b2b;;">Pupuk Karsa dengan Satu Rasa, untuk
-                              Mencipta Karya Bersama!</span></h5>
+                              Mencipta Karya Bersama</span></h5>
                           <hr>
                           <p class="text-muted">Visi & Misi</p>
                           <p class="text-justify">-</p>
@@ -189,7 +190,7 @@
                           <hr>
                           <p class="text-muted">Slogan</p>
                           <h5><span style="font-style: italic; color: #b22b2b;;">Bergerak Bersama Paslon Nomor Dua,
-                              Wujudkan Semangat Berkarya!</span></h5>
+                              Wujudkan Semangat Berkarya</span></h5>
                           <hr>
                           <p class="text-muted">Visi & Misi</p>
                           <p class="text-justify">-</p>
@@ -210,9 +211,11 @@
       <!-- Card Paslon-->
 
       <div class="container-fluid text-center bg-light">
-        <div class="row mb-4">
-          <div class="col pt-5">
-            <h3>Tata Cara E-Voting</h3>
+        <div class="row mt-5 mb-4">
+          <div class="col">
+            <div data-aos="fade-down" data-aos-duration="800">
+              <h3>Tata Cara E-Voting</h3>
+            </div>
           </div>
         </div>
       </div>
@@ -222,25 +225,109 @@
           <div class="col">
             <div class="card mb-5 box-shadow">
               <div class="card-body"></div>
-              <embed src="docs/tata-cara-voting.pdf" width="auto" height="800px" type="application/pdf">
+              <container class="mb-4 mx-4">
+                <ul class="list-group">
+                  <li class="list-group-item bg-dark">
+                    <span style="color: white;">1. Klik <b>"Mulai Voting"</b>, kemudian lakukan login menggunakan ID dan
+                      password
+                      Anda</span>
+                  </li>
+                  <container class="m-3">
+                    <img src="/img/steps/step-2.png" class="img-fluid img-thumbnail mx-auto d-block"
+                      alt="Responsive image">
+                  </container>
+                  <li class="list-group-item bg-dark">
+                    <span style="color: white;">2. Klik tombol <b>“Start”</b> untuk memasuki bilik suara online</span>
+                  </li>
+                  <container class="m-3">
+                    <img src="/img/steps/step-3.png" class="img-fluid img-thumbnail mx-auto d-block"
+                      alt="Responsive image">
+                  </container>
+                  <li class="list-group-item bg-dark">
+                    <span style="color: white;">3. Lakukan pemilihan pasangan calon kemudian klik tombol
+                      <b>“Proceed”</b></span>
+                  </li>
+                  <container class="m-3">
+                    <img src="/img/steps/step-4.png" class="img-fluid img-thumbnail mx-auto d-block alt=" Responsive
+                      image">
+                  </container>
+                  <li class="list-group-item bg-dark">
+                    <span style="color: white;">4. Klik tombol <b>“Submit this Vote!”</b> jika sudah yakin dengan
+                      pilihan Anda</span>
+                  </li>
+                  <container class="m-3">
+                    <img src="/img/steps/step-5.png" class="img-fluid img-thumbnail mx-auto d-block"
+                      alt="Responsive image">
+                  </container>
+                  <li class="list-group-item bg-dark">
+                    <span style="color: white;">5. Klik tombol <b>“CAST this ballot”</b> untuk melakukan submisi</span>
+                  </li>
+                  <container class="m-3">
+                    <img src="/img/steps/step-6.png" class="img-fluid img-thumbnail mx-auto d-block"
+                      alt="Responsive image">
+                  </container>
+                  <li class="list-group-item bg-dark">
+                    <span style="color: white;">6. Selamat! Anda telah berpartisipasi dalam Pemilu Ketua & Wakil Ketua
+                      HMTKBG 2021/2022!</span>
+                  </li>
+                  <container class="m-3">
+                    <img src="/img/steps/step-7.png" class="img-fluid img-thumbnail mx-auto d-block"
+                      alt="Responsive image">
+                  </container>
+                </ul>
+              </container>
             </div>
           </div>
         </div>
       </div>
 
-    </div>
+      <!--- About -->
+
+      <div class="container-fluid text-center bg-light">
+        <div class="row mt-5 mb-4">
+          <div class="col">
+            <h6><span style="color: grey; font-family:Montserrat">Panitia Pemilu TKBG 2021</span>
+              <br>
+              <img src="img/x.png" class="my-4"></img>
+              <h6><span style="color: grey; font-family:Montserrat">Divisi Kominfo HMTKBG 2021
+              </h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Card
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card box-shadow">
+              <div class="card-body">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      -->
 
   </main>
+
 
   <!-- <footer class="text-muted bg-danger"></footer> -->
   <!-- <span style="font-style:italic; color:#db282e">Divisi Kominfo HMTKBG 2021</span> -->
 
+  <!--
   <footer>
-    <div class="container">
-      <p class="text-center"><span style="font-family:'Courier New', Courier, monospace;font-style:normal;">Panitia
-          Pemilu TKBG | Divisi Kominfo HMTKBG</span> </p>
+    <div class="container-fluid text-center">
+      <p class="">Panitia Pemilu TKBG | Divisi Kominfo HMTKBG </p>
+
+      <br>
+      <br>
+      <p class="">Panitia Pemilu TKBG | Divisi Kominfo HMTKBG </p>
     </div>
   </footer>
+  -->
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
