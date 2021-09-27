@@ -43,37 +43,6 @@ body{
 }
 */
 
-.hori-timeline .events {
-    border-top: 3px dashed #e9ecef;
-}
-
-.hori-timeline .events .event-list {
-    display: block;
-    position: relative;
-    text-align: center;
-    padding-top: 70px;
-    margin-right: 0;
-}
-
-.hori-timeline .events .event-list:before {
-    content: "";
-    position: absolute;
-    height: 45px;
-    border-right: 2px solid #dee2e6;
-    top: 0;
-}
-
-.hori-timeline .events .event-list .event-date {
-    position: absolute;
-    top: 38px;
-    left: 0;
-    right: 0;
-    width: 150px;
-    margin: 0 auto;
-    border-radius: 4px;
-    padding: 2px;
-}
-
 @media (min-width: 1140px) {
     .hori-timeline .events .event-list {
         display: inline-block;
